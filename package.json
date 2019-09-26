@@ -4,25 +4,21 @@
   "description": "freeCodeCamp.org API challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lutlas/Timestamp-Microservice.git"
+    "url": "https://github.com/LutLas/The-Timestamp-Microservice"
   },
   "author": "LutLas Aboyum",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Lutlas/Timestamp-Microservice/issues"
+    "url": "https://github.com/Lutlas/The-Timestamp-Microservice/issues"
   },
-  "homepage": "https://github.com/LutLas/Timestamp-Microservice#readme",
+  "homepage": "https://github.com/LutLas/The-Timestamp-Microservice#readme",
   "dependencies": {
-    "dateformat": "^3.0.3",
+    "dateformat": "^2.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0"
-  },
-  "engines": {
-		"node": "10.15.3"
-}
+  }
 }
