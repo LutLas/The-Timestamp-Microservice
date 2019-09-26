@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/LutLas/The-Timestamp-Microservice#readme",
   "dependencies": {
-    "dateformat": "^2.2.0",
+    "dateformat": "^3.0.3",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0"
   }
