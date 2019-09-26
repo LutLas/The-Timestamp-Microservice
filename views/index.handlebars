@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LutLas' Timestamp Microservice</title>
+
+    <!-- Bootstrap Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"/>
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Pacifico|Wendy+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Orbitron" rel="stylesheet">
+
+    <!-- jQuery Core 3.1.1 minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Bootstrap Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <main class="container">
+      <div clss="row">
+        <div class="center-block" id="display-container">
+          <!-- <div class="col-xs-12" id="main-container"> -->
+            <h3 id="app-title" class="text-center">LutLas' Timestamp Microservice</h3>
+            <div class="row text-left">
+              <div class="col-xs-12">
+                <h4 class="text-left">User stories:</h4>
+                <ol>
+                  <li>Pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: <kbd>September 26, 2019</kbd>)</li>
+                  <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+                  <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+                </ol>
+
+                <h4 class="text-left">Example Usage:</h4>
+                <a href="https://the-timestamp-microservice.glitch.me/September%2026,%202019" target="_blank"><code>https://the-timestamp-microservice.glitch.me/September%2026,%202019</code></a><span>Click to see sample</span><br>
+                <a href="https://the-timestamp-microservice.glitch.me/1569456000000" target="_blank"><code>https://the-timestamp-microservice.glitch.me/1569456000000</code></a><span>Click to see sample</span>
+
+                <h4 class="text-left">Example Output:</h4>
+                <samp>{ "unix": 639464400000, "natural": "September 26, 2019" }</samp>
+              </div>
+            </div>
+
+          <!-- </div> -->
+        </div>
+      </div> <!-- End of "row" div -->
+
+    </main> <!-- End of "container" -->
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center" id="mysocial">
+          <a href="https://github.com/Lutlas" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/lutaka-chihota-402b31147/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href="mailto:lutakachihota@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="text-center">
+        <p>For <a href="https://www.freecodecamp.com/challenges/timestamp-microservice" target="_blank">freeCodeCamp.org project</a></p>
+        <p> Copyright © <a href="https://www.freecodecamp.org/fcccb675a9c-452d-4cc3-8d3c-e3f5ec6a4c9d" target="_blank">Lutaka Chihota</a>. All right reserved. </p>
+      </div>
+    </footer>
+
+  </body>
+</html>
